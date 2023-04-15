@@ -1,26 +1,26 @@
-; Задача №11. Решение в группах
-; Дано натуральное число A > 1. Определите, каким по
-; счету числом Фибоначчи оно является, то есть
-; выведите такое число n, что φ(n)=A. Если А не
-; является числом Фибоначчи, выведите число -1.
-; Input: 5
-; Output: 6 
+# ; Задача №11. Решение в группах
+# ; Дано натуральное число A > 1. Определите, каким по
+# ; счету числом Фибоначчи оно является, то есть
+# ; выведите такое число n, что φ(n)=A. Если А не
+# ; является числом Фибоначчи, выведите число -1.
+# ; Input: 5
+# ; Output: 6 
 
 
-; a = int(input("введите число > 1 "))
+# ; a = int(input("введите число > 1 "))
 
 
-; first_number = 0
-; second_namber = 0
-; temp = 1
+# ; first_number = 0
+# ; second_namber = 0
+# ; temp = 1
 
 
-; for a in range(0, a+1):
-;     fibonachi = first_number + second_namber
-;     second_namber = temp + first_number
-;     first_number = temp
-;     temp = second_namber
-;     print(fibonachi)
+# ; for a in range(0, a+1):
+# ;     fibonachi = first_number + second_namber
+# ;     second_namber = temp + first_number
+# ;     first_number = temp
+# ;     temp = second_namber
+# ;     print(fibonachi)
 
 number = int(input("введите число >1 ==>"))
 
