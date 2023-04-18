@@ -8,3 +8,48 @@
 #     1 2 3 4 5
 #     6
 #     -> 5
+
+print("введите количество чисел в списке")
+n = int(input())
+print(f"введите число 'X'")
+x = int(input())  
+print(f"число Х = {x}")
+print()
+
+list_1 = []
+for i in range(1, n + 1):
+  list_1.append(i)
+print(f"{list_1}")
+print()
+
+found = list_1[0]
+for i in list_1:
+  if abs(i - x) < abs(found - x):
+    found = i
+  
+print(f'ближайшее число к Х ==> {found}')
+
+
+
+
+        
+    
+
+    
+   
+
+
+
+
+
+
+  
+
+
+
+
+
+    
+
+
+
