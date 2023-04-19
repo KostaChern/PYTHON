@@ -10,3 +10,15 @@
 # ноутбук
 #     12
 
+
+my_dict = {'AEIOULNSTRАВЕИНОРСТ' : 1, 'DGДКЛМПУ' : 2, 'BCMPБГЁЬЯ' : 3, 'FHVWYЙЫ' : 4, 'KЖЗХЦЧ' : 5, 'JXШЭЮ' : 8, 'QZФЩЪ' : 10}
+input_word = input('введите слово ==>  ')
+
+count = 0
+for leter in input_word.upper():
+    for leters in my_dict:
+        if leter in leters:
+            count += my_dict.get(leters)
+print(f'введено слово *{input_word}* стоимостью: <<{count}!>> очков ')
+            
+    
